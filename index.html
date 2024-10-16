@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyBite & OfficeEats</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Mazi Mess</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>StudyBite & OfficeEats connects out-of-town students and local professionals with delicious meals from cloud kitchens and home chefs.</p>
+        </section>
+
+        <section id="features">
+            <h2>Key Features</h2>
+            <div class="feature-cards">
+                <div class="card">Monthly Meal Plans</div>
+                <div class="card">Corporate Meal Options</div>
+                <div class="card">Marketplace for Home Chefs</div>
+                <div class="card">Customizable Menus</div>
+                <div class="card">Local Cuisine Highlights</div>
+                <div class="card">Flexible Delivery Options</div>
+                <div class="card">Nutrition Resources</div>
+                <div class="card">Loyalty Programs</div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="formResponse"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 StudyBite & OfficeEats. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
